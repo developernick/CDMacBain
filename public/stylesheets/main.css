@@ -1,0 +1,81 @@
+
+/*font-family: 'Nixie One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+html, body{
+	max-width: 100%;
+	max-height: 100%;
+	background: url("/images/WorkBench.jpg") no-repeat center;
+	background-size: cover;
+	padding: 0;
+	margin: 0 auto;
+}
+.pageWrapper{
+	padding:inherit;
+	margin:inherit;
+}
+.content{
+	height: 100%;
+	padding:0;
+	margin:0 auto;
+}
+/*-_-_-_-_-_-_-_-_-_- Navigation -_-_-_-_-_-_-_-_-_*/
+
+.menubar{
+	font-family: 'Nixie One', cursive;
+	color: white;
+	height: 100%;
+	padding:0;
+	margin:0 auto;
+}
+.sidebar-nav {
+	text-align: center;
+	height:100%;
+}
+.navlink {
+	margin-top: 5rem;
+	font-size: 1.6rem;
+}
+.navbar-inverse{
+	border: none;
+	height:100%;
+	background-image: none !important;
+	background-color: #1C1106 !important;
+	background-blend-mode: saturation;
+	opacity: 0.8;
+}
+.mainLogo{
+	height: auto;
+	margin: 0 auto;
+	padding: 2rem 0;
+}
+.Brand{
+	align-content: center;
+	margin: 0 auto;
+	opacity: 0.2;
+}
+
+
+/* -_-_-_-_-_-_-_-_-_- Media Queries -_-_-_-_-_-_-_-_-_- */
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+		color: #BF9475;
+  }
+}
